@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+body{
+  line-height: 1.7;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue','游ゴシック medium' YuGothic, YuGothicM 'Hiragino kaku Gothic PorN', Meiryo, sans-serif;
+  color: #000;
+}
+
+a,
+a:link{
+  color: #3585b7;
+}
+a:visited{
+  color: #6252b7;
+}
+a:hover{
+  text-decoration: none;
+  color: #555;
+}
+
+/* header */
+header{
+  display: flex;
+}
+header h1{
+  margin: 20px 0 0 20px;
+}
+header nav{
+  margin: 0 0 0 auto;
+}
+header nav ul{
+  list-style-type: none;
+  margin: 20px 0;
+  padding: 0;
+  display: flex;
+}
+header nav ul li a,
+header nav ul li a:link,
+header nav ul li a:visited{
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #000;
+}
+header nav ul li a:hover{
+  color: #888;
+}
+
+/* footer */
+footer{
+  background: #f2f8f8;
+  padding: 20px;
+}
+footer ul{
+  list-style-type: none;
+  margin: 0 0 5px;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+footer ul li {
+  margin: 0 0 0 20px;
+}
+footer nav ul li a,
+footer nav ul li a:link,
+footer nav ul li a:visited{
+  text-decoration: none;
+  font-size: 13px;
+  color: #000;
+}
+footer ul li a:hover{
+  color: #888;
+}
+
+/* main */
+main .inner{
+  width: 990px;
+  margin: 50px auto;
+}
+main h2{
+  margin: 50px 0 20px;
+  font-weight: normal;
+  font-size: 25px;
+  color: #00b6bd;
+}
+main p{
+  margin: 0 0 15px;
+}
+
+main dl{
+  width: 100%;
+}
+
+main dl dt{
+  float: left;
+  clear: both;
+  padding: 10px 0;
+}
+
+main dl dd{
+  border-bottom: solid 1px #ccc;
+  margin: 0;
+  padding: 10px 0 10px 15%;
+}
+
+/* home */
+.home main .visual{
+  background: url(../images/visual.jpg) no-repeat center top;
+  height: 550px;
+  padding: 150px 0 0;
+  box-sizing: border-box;
+}
+
+.home main .visual p{
+  text-align: center;
+}
+
+.home main section{
+  display: flex;
+  margin-top: 50px;
+}
+
+.home main section div{
+  padding: 0 40px 0 0;
+}
+
+.home main section:first-child{
+  flex-direction:row-reverse;
+}
+
+.home main section:first-child div{
+  padding: 0 0 0 40px;
+}
+
+/* course */
+.course main .course-box{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.course main .course-box div{
+  width: 475px;
+}
+
+main .title{
+  padding: 50px;
+  background-color: #f2f8f8;
+}
+
+main .title h1{
+  margin:0;
+  line-height: 1;
+  font-size: 40px;
+  color: #00b6bd;
+}
+
+main .title ol{
+  list-style-type: none;
+  margin: 30px 0 0;
+  padding: 0;
+  display: flex;
+}
+main .title ol li{
+  font-size: 13px;
+}
+main .title ol li::after{
+  content: ">";
+  margin: 0 5px 0 10px;
+}
+main .title ol li :last-child::after{
+  content: none;
+}
+
+main table{
+  width: 100%;
+  margin-bottom: 30px;
+}
+main table,
+main table th,
+main table td{
+  border: solid 1px #ccc;
+  border-collapse:collapse ;
+}
+main table th,
+main table td{
+  padding: 10px;
+}
+main table th{
+  background: #f2f8f8;
+  color: #00b6bd;
+}
+
+main ul{
+  margin: 0 0 60px;
+  padding: 0 0 0 20px;
+}
+
+
+/* price */
+
+/* access */
+
+/* entry */
+
+/* sitemap */
