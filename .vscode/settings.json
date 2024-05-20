@@ -1,6 +1,6 @@
 {
   // ! 自動保存したくない場合はコメントアウトする
-  // "files.autoSave": "afterDelay",
+  "files.autoSave": "afterDelay",
 
   // ファイル設定
   "files.autoSaveDelay": 100,

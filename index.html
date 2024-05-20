@@ -7,15 +7,19 @@
     <link href="portfolio/css/style.css" media="all" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" href="portfolio/img/favicon.ico" />
             <style>
-          .wrapper{background-color: white;}
+          .wrapper{background-color: #fff;}
           /* .footer{background-color: darkgray;} */
-          .inner{background-color: darkgray;}
-          .inner2{background-color: whitesmoke;}
-          .main-visual{background-color: whitesmoke;}
+          .inner{background-color: #516C8D;}
+          .inner2{background-color: #dedede;}
+          .main-visual{background-color: #28385e;}
         </style>
   </head>
 
   <body>
+    <div class="pos">
+      <img src="portfolio/img/scroll.png"/>
+      <p>SCROLL</p>
+    </div>
     <div class="wrapper">
       <!-- header -->
       <header class="header">
@@ -40,8 +44,10 @@
         <!-- main-visual -->
         <div class="main-visual" id="#">
           <div class="main-visual-inner">
+          <div class="slidein">
             <p class="main-visual-title">MATSUURA YUKINA</p>
             <p class="main-visual-subtitle">PORTFOLIO</p>
+          </div>
             <div class="main-visual-profile">
               <p class="main-visual-img">
                 <img src="2.ensyu/img/Persia.webp" alt="自画像" />
@@ -56,11 +62,6 @@
         </div>
         <!-- /main-visual -->
 
-        <!--scroll-->
-        <div class="scroll">
-          <span class="txt">Scroll</span>
-        </div>
-        <!--/scroll-->
 
         <!-- works -->
         <section class="works section" id="works">
@@ -232,7 +233,7 @@
               </tr>
               <tr>
                 <th>信条</th>
-                <td>-</td>
+                <td>「食べる門には福来る」</td>
               </tr>
             </table><br>
         </div>
@@ -256,7 +257,7 @@
                   <input type="tel" name="tel"/>
                 </div>
                 <div class="contact-item">
-                  <p class="form-title">お問い合わせ</p>
+                  <p class="form-title">お問い合わせ<span class="must">必須</span></p>
                   <textarea name="remarks" cols="40" row="4" maxlength="40"></textarea>
                 </div>
                 <div class="btn-item">
