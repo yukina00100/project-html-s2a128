@@ -46,6 +46,9 @@ img {
   text-align: center;
   letter-spacing: 0.05em;
   color: #28385e;
+  border-top: #28385e solid 1px;
+  border-bottom: #28385e solid 1px;
+  padding: 10px;
 }
 
 /*--------------------------------
@@ -56,7 +59,7 @@ img {
   top: 0;
   z-index: 1;
   width: 100%;
-  background-color: #fff;
+  background-color: #516C8D;
   box-shadow: 0 5px 10px -6px rgba(154, 166, 216, 0.1);
 }
 
@@ -66,6 +69,7 @@ img {
   justify-content: space-between;
   padding: 20px 40px;
 }
+
 
 .header-logo {
   font-size: 20px;
@@ -83,6 +87,8 @@ img {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .header-nav-item:not(:last-child) {
@@ -137,12 +143,12 @@ img {
   opacity: 0;}
   100%{transform: translateX(0);}
   40%,100%{
-    opacity: 100%;
+  opacity: 100%;
   }
 }
 
 .main-visual-inner {
-  padding: 0 40px;
+  padding: 0 30px;
 }
 
 .main-visual-title {
@@ -194,6 +200,7 @@ img {
     width: 50%;
     padding-top: 50px;
   }
+
 }
 
 
@@ -509,6 +516,7 @@ Contact
   cursor: pointer;
 }
 
+
 /*--------------------------------
 ページトップ
 ---------------------------------*/
@@ -568,9 +576,23 @@ Contact
 /* sub */
 
 
+.main-visual-title-sub{
+  margin-top: 180px ;
+}
+
+.main-visual-inner{
+  background-color: #28385e;
+}
+
+.art1{
+  margin-top: 150px;
+  margin-bottom: 20px;
+  background-color: #ccc;
+  color: #28385e;
+}
 
 .inner2{
-  margin: 20px;
+  margin: 20px 0;
   text-align: left;
   color: #293b6a;
 }
@@ -580,4 +602,17 @@ Contact
 }
 .original-li li{
   border-bottom: #fff;
+}
+
+
+.iframe{
+  padding-bottom: 20px;
+  padding-left: 5px;
+  width: 49%;
+}
+
+@media screen and (max-width:780px) {
+  .iframe{
+    width: 100%;
+  }
 }
